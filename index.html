@@ -407,6 +407,72 @@
             </svg>
           </span>
         </button>
+
+        <form class="form" action="">
+          <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+          <div class="form-field">
+            <label class="form-label" for="user-name">Ім'я </label>
+            <div class="form-box">
+              <input class="form-input" id="user-name" type="text" name="name" />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="user-tel">Телефон</label>
+            <div class="form-box">
+              <input class="form-input" id="user-tel" type="tel" name="tel" />
+
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="user-email">Пошта</label>
+            <div class="form-box">
+              <input class="form-input" id="user-email" type="email" name="email" />
+              <svg class="form-icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field textarea">
+            <label class="form-label" for="user-coment">Коментар</label>
+            <textarea
+              class="form-textarea"
+              id="user-coment"
+              type="text"
+              name="coment"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
+
+          <div class="form-field checkbox">
+            <label class="form-label" for="user-agreement">
+              <input
+                class="checkbox visually-hidden"
+                type="checkbox"
+                id="user-agreement"
+                name="agreement"
+              />
+              <span class="icon">
+                <svg>
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              <span class="title">
+                Погоджуюся з розсилкою та приймаю
+                <a class="agreement-link" href="">Умови договору</a>
+              </span>
+            </label>
+          </div>
+          <button type="submit">Відправити</button>
+        </form>
       </div>
     </div>
 
