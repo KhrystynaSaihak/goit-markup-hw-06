@@ -396,16 +396,26 @@
             </li>
           </ul>
         </div>
+        <div class="form-box">
+          <h3 class="title">Підпишіться на розсилку</h3>
+          <form class="form" action="">
+            <input type="email" name="email" placeholder="E-mail" />
+            <button type="submit">
+              Підписатися
+              <svg class="icon-send">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close>
-          <span class="cross">
-            <svg class="icon">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </span>
+          <svg class="cross">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
         </button>
 
         <form class="form" action="">
@@ -453,13 +463,13 @@
           </div>
 
           <div class="form-field checkbox">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              id="user-agreement"
+              name="agreement"
+            />
             <label class="form-label" for="user-agreement">
-              <input
-                class="checkbox visually-hidden"
-                type="checkbox"
-                id="user-agreement"
-                name="agreement"
-              />
               <span class="icon">
                 <svg>
                   <use href="./images/icons.svg#icon-check"></use>
