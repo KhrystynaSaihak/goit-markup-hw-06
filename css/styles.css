@@ -552,8 +552,7 @@ button {
 }
 
 .footer-section .form button {
-  width: 200px;
-  height: 50px;
+  padding: 10px 28px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -742,9 +741,10 @@ button {
 }
 
 .backdrop .modal {
+  position: relative;
   min-width: 528px;
   min-height: 581px;
-  padding: 8px;
+  padding: 40px;
 
   background: var(--primary-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -754,6 +754,9 @@ button {
 
 .modal-close {
   display: flex;
+  position: absolute;
+  top: 8px;
+  right: 8px;
   width: 30px;
   height: 30px;
   align-items: center;
@@ -777,13 +780,6 @@ button {
 
 .modal-close:hover .cross {
   fill: var(--accent-color);
-}
-
-.backdrop .form {
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 32px;
-  margin-top: 1px;
 }
 
 .backdrop .form-title {
@@ -876,8 +872,7 @@ button {
 
 .backdrop .form button {
   display: block;
-  width: 200px;
-  height: 50px;
+  padding: 10px 52px;
   margin: 0 auto;
 
   background-color: var(--accent-color);
@@ -886,6 +881,7 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--hero-title-color);
+  line-height: 1.88;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
